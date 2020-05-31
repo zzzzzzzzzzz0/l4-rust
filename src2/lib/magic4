@@ -1,0 +1,19 @@
+模块“文件类型库”、下代码
+	调用‘magic-close’、‘句柄2’。
+上代码。
+函数集“libmagic.so”、“libmagic.so.1”。
+
+函数“magic-open”以“magic_open”、“l-i”。
+函数“magic-load”以“magic_load”、“-l-l”。
+
+赋予“句柄2”【私】以调用‘magic-open’、分叉‘参数1’先
+	“mime”：“16”。
+	、“symlink”：“2”。
+	‘参数1’
+了。
+
+调用‘magic-load’、‘句柄2’、“0”。
+函数“得文件类型”以“magic_file”、“c*-i:‘句柄2’-c*”。
+
+函数“magic-file”以“magic_file”、“c*-l-c*”。
+函数“magic-close”以“magic_close”、“-l”。

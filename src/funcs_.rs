@@ -10,7 +10,7 @@ pub enum Typ_ {
 	Void, Int, UInt, Long, ULong, Float, Char, CharPtr, CharAddr, Addr, NBool,
 	Unsigned, Ptr, Val,
 	IntVal(i64), UIntVal(u64), StringVal(String),
-	Buf, BufSiz, Errret, Z,
+	Buf, BufSiz, Addrret, Errret, Z,
 	No, Err
 }
 
@@ -44,6 +44,7 @@ impl Item_ {
 			b':' => Typ_::Val,
 			b'B' => Typ_::Buf,
 			b'S' => Typ_::BufSiz,
+			b'A' => Typ_::Addrret,
 			b'E' => Typ_::Errret,
 			b'Z' => Typ_::Z,
 			b'-' => Typ_::No,
@@ -86,7 +87,7 @@ impl Item_ {
 		let mut args2: Vec<usize> = vec![];
 		let mut fargs2: Vec<f64> = vec![];
 		let mut args_0 = vec![];
-		let mut buf = vec![0i8; 512];
+		let mut buf = vec![0i8; 2048];
 		let mut errret = 0;
 		let errret2:*mut i32 = &mut errret;
 		{

@@ -1,0 +1,11 @@
+模块“命令行库”。
+（属性：
+1、flag
+2、rem
+3、type、argc
+4、code）
+函数集“<rust>”、‘l4.so’。
+
+函数“命令行加回调”以“clpars4_set__”、“-Z”。
+函数“命令行解析”以“clpars4_par__”、“-Z”。
+函数“命令行帮助”以“clpars4_help__”、“-Z”。

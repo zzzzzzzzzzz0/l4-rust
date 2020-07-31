@@ -1,0 +1,23 @@
+模块“文件名库”。
+函数集“‘参数0’.so”。
+
+函数“最终文件名”以“cheng2xu4ming2___”、“-S-c*”。
+函数“移除..”以“remove_dd__”、“c*-c*”。
+函数“移除...”以“remove_dd2__”、“c*-c*-i”（、1包括// 2包括/. 4尾/）。
+函数“省略名”以“shenglvename__”、“-S-c*-Z”（、……选项：x去掉后缀，/级分隔符，_保留空级，l有长15则足表达）。
+函数“唯一文件名”以“only_name2__”、“-S-c*-c*-Z”（目录、名字，可以是路径（end））。
+
+函数“得路径部”  以“extractfilename___”、“-S-c*-Z”（、…… 0：扩展名，1：名，11：无点名，2：路径名，3：盘符，4：协议，-1：参数，\打头为其后，其他原样）。
+函数“得目录名”  以“extractfilename___”、“-S-c*-i:1-*:"2"”。
+函数“得文件主名”以“extractfilename___”、“-S-c*-i:1-*:"1"”。
+函数“得扩展名”  以“extractfilename___”、“-S-c*-i:1-*:"0"”。
+函数“得协议名”  以“extractfilename___”、“-S-c*-i:1-*:"4"”。
+
+函数“urlencode”以“urlencode__”、“-E-A-c*-Z”（、c*遮罩、c*不编码的字符）。
+函数“urldecode”以“urldecode__”、“-E-A-c*-Z”（、c*遮罩）。
+
+函数“fileinfo”以“_fileinfo__”、“-S-c*-c*”（文件名、
+格式：%后s大小、m属性、M、o、t时间（后a访问、m修改、c建立）、i ino、b blocks、B blksize、r rdev、u uid、g gid、n nlink、d dev，其他原样）。
+
+函数“得符号链接”以“_symlnk_get__”、“-S-c*”（path）。
+函数“建符号链接”以“_symlnk_create__”、“i-c*-c*-i”（path2、path、force）。

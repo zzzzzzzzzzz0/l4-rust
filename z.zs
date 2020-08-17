@@ -33,11 +33,11 @@
 	br、下代码
 		运行“rust.zs2 ‘参数0’”
 	上代码、0、、
-	mvr、下代码
-		赋予源/、标/以./target/release/、/zzzzzzzzzzz4/usr/lib/zhscript2-rust/。
+	mvr、下原样
+		赋予源/、标/以./target/release/、
+			/zzzzzzzzzzz4/usr/lib/zhscript2-rust/。
 		运行“mv ‘源/’l ‘标/’l”。
-		运行“mv ‘源/’libl4.so ‘标/’l4.so”。
-	上代码、0、、
+		运行“mv ‘源/’libl4.so ‘标/’l4.so”。上原样、0、、
 	meld、下代码
 		运行“meld /zzzzzzzzzzz4/usr/lib/zhscript2-rust/lib src2/lib”
 	上代码、0、、

@@ -1,0 +1,98 @@
+#!/usr/lib/zhscript2-rust/l --。
+赋予调试【顶】以。
+定义提示、内容以下代码
+	显示“# ‘内容’”换行。
+上代码。
+定义运行、命令、饶以下代码
+	提示‘命令’。
+	如果‘调试’那么先
+		提示未‘参数0’。
+		返回。
+	了。
+	赋予错、误以执行‘命令’。
+	提示‘错’。
+	如果‘错’那么提示‘误’。
+	如果‘错’并且不‘饶’那么结束‘错’。
+上代码。
+定义行解以下代码
+	调用‘命令行解析’、‘解’、‘参数栈’。
+上代码。
+
+加载lib/clpars4。
+赋予解以调用‘命令行加回调’、、
+	r、下代码
+		运行“cargo run ‘参数’”
+	上代码、a、、
+	r1|r2|r31|r32、下原样
+		行解r、src2/分叉‘参数0’先
+			r1：dl。
+			r2：gjk。
+			r31、r32：clpars-。
+			r31：ta。
+			r32：attr。
+		了.zs
+	上原样、0、、
+	r4、、0、下代码
+		行解r、/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/doscmd-exist.zs。
+	上代码、
+	rr、下代码
+		行解r、--release、‘参数栈’。
+	上代码、a、、
+	d|d2|d3、下原样
+		运行“rust.zs b”。
+		赋予/t/以/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/。
+		运行/opt2/debug/zhscript2-rust/分叉‘参数0’先
+			“l”。
+			d2、d3“webkitAsh”。
+		了“ ”分叉‘参数0’先
+			d先“‘/t/’def.zs”了。
+			d2“/zzzzzzzzzzz/sh/b7.zs page1__”。
+			d3先“‘/t/’webkitAsh02.zs”了。
+		了。
+	上原样、0、、
+	br|b|v|src1、下代码
+		运行“rust.zs ‘参数0’”
+	上代码、0、、
+	^(mv|ls|cp|rm)r(|y)$、下原样
+		别名头以参数1。
+		赋予源/、标/、头2以./target/release/、
+			/zzzzzzzzzzz4/分叉‘参数2’先
+				y“y/zs2-r”。
+				“usr/lib/zhscript2-rust”
+			了/、
+			‘头’分叉‘头’先
+				ls“ -l”。
+				cp“ -p”。
+				rm“ -r”。
+			了。
+		分叉‘头’先
+			rm先
+				运行“‘头2’ ‘源/’”。
+			了。
+			先
+				运行“‘头2’ ‘源/’l ‘标/’l3”、1。
+				运行“‘头2’ ‘源/’libl4.so ‘标/’l4.so”、1。
+			了
+		了。
+	上原样、r、、
+	meld、下代码
+		运行“meld /zzzzzzzzzzz4/usr/lib/zhscript2-rust/lib src2/lib”
+	上代码、0、、
+	(do)(|i|x)、“进入 docker 编译环境”、r、下代码
+		加载lib2/util.zs。
+		形参起名、动、。
+		运行“‘名’2.zs ”分叉‘动’先i“x1”了“ 171z‘动’ =rt1 =crg1 /opt4 ”分叉‘动’先
+			i先
+				加载lib/file4。
+				赋予目录以调用‘得目录名’、‘参数0【上】【上】’。
+				如果‘目录’等于./那么先
+					加载lib/stdc。
+					赋予目录以调用‘得当前目录’。
+				了。
+				“-w "‘目录’"”
+			了
+		了。
+	上代码、
+	-h2、“赋予调试【顶】以1。”、0、。
+行解‘参数栈’。
+如果不‘参数数目’那么行解-h。

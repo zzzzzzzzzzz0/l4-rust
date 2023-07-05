@@ -1,0 +1,216 @@
+#!/usr/lib/zhscript2-rust/gtkBsh --。
+加载lib2/util.zs。
+
+加载lib/clpars4。
+赋予解以调用‘命令行加回调’、、
+	utc、、0、下代码
+		加载lib/regexpr4。加载lib/doscmd4。
+		调用‘遍历正则’、先调用‘type’、/home/zzzzzzzzzzz/桌面/z-r-ver.txt了、(.+)、下代码
+			（显参。）
+			形参起名、。
+			如果调用‘existdir’、“/opt2/rust/usr/rustup/toolchains/‘名’”那么
+				显示“ rust.zs utc ‘名’”换行。
+		上代码。
+		结束。
+	上代码。
+调用‘命令行解析’、‘解’、‘参数栈’。
+
+加载lib/file4。
+加载lib/file2。
+赋予@【顶】以调用‘正规路径’、先调用‘得目录名’、‘参数0’了..。
+赋予“步”【顶】以。
+
+加载lib/gjk4。
+加载lib/regexpr4。
+定义时间戳<【顶】、日期以下代码
+	如果调用‘遍历正则’、‘日期’、(\d{4})-(\d{2})-(\d{2})、下代码
+		赋予【上】以调用‘转时间戳’、‘参数栈’、0、0、0。
+	上代码那么‘’否则先
+		显参“不合格”。
+		结束1。
+	了。
+上代码。
+
+定义:::【顶】、选以下代码
+	分叉‘选’先
+		pause先
+			赋予‘选’【顶】以如果存在‘选’【顶】并且‘‘选’【顶】’那么0否则1。
+			:::log。
+			log--“（‘选’:‘‘选’’）”。
+			返回。
+		了。
+		break先
+			如果存在‘选’【顶】并且‘‘选’【顶】’那么先
+				:::log。
+				log--“（‘选’ 已设置，请等待）”。
+			了否则
+				赋予‘选’【顶】以1。
+			返回。
+		了。
+		for先
+			赋予1、2以如果‘参数数目’大于1那么
+				‘参数栈【2】’
+			否则先
+				（1667606400。）
+				先时间戳<2023-05-10了、调用‘串格时间’、%s。
+			了。
+
+			:::log。
+			定义日期<、1以下代码
+				调用‘串格给时间’、“%Y-%m-%d”、‘1’
+			上代码。
+
+			加载lib/doscmd4。
+			赋予版本文件以‘@’/rust-toolchain。
+			赋予原版本以调用‘去头尾空白’、调用‘type’、‘版本文件’。
+			定义写版本、版本以下代码
+				log--‘参数0’‘参数’“ ”。
+				如果调用‘echo’、‘版本’换行、‘版本文件’那么遁出。
+			上代码。
+
+			赋予好、“步-错”【顶】、pause【顶】、break【顶】以。
+			log--先日期<‘1’了..先日期<‘2’了制表符‘原版本’换行。
+			圈子先
+				赋予版本以“nightly-”先日期<‘1’了。
+				log--换行“‘1’ ”。
+				写版本‘版本’。
+				赋予步【顶】、清除以0、1。
+				循环先
+					调用‘口’、““-等待”、“300000””。
+					如果不‘pause【顶】’那么分叉‘步’先
+						“0”先
+							赋予“步”【顶】以“1”。
+							:::“r4”。
+						了。
+						“1”先了。
+						先
+							log--“错‘步-错’ ”。
+							如果分叉‘步-错’先
+								、“0.0”（、“101.0”）：“1”。
+							了那么
+								赋予“清除”以“0”。
+							跳出。
+						了。
+					了。
+				了。
+				log--“‘步’步 清除‘清除’ ”。
+				如果‘清除’那么分叉‘版本’先
+					“nightly-2020-04-30”、
+					（“nightly-2022-04-10”、）
+					“nightly-2022-11-03”先了。
+					管道堵执行“rust.zs utc ‘版本’”。
+				了否则
+					赋予“好”以“‘好’ ‘版本’”。
+				赋予“1”以算术“‘1’+24*60*60”。
+				如果‘1’小于等于‘2’并且不‘break【顶】’那么先
+					调用‘口’、““-页”、“r4”、“-关闭2””。
+					重来
+				了。
+				调用‘口’、““-页”、“log”、“-切””。
+				写版本‘原版本’。
+				log--“下一 ‘1’”换行。
+			了。
+			log--“完‘好’”换行。
+			返回。
+		了
+	了。
+	调用‘口’、“-簿、生死、-新页、终端、”分叉‘选’先
+		“log”先了。
+		先““./z.zs ‘选’””了
+	了“、“-目录、‘@’、-行数、-1、“-背景色”、“#fff”、“-前景色”、“#000””、
+	“-可关闭、-名、‘选’、-切”、-签、‘选’”。
+上代码。
+定义log--【顶】、文以下代码
+	显示‘文’、。
+	调用‘口’、“-页、log、-文字、下原样”调用‘多串更换’、‘文’、换行、回车换行。
+上代码。
+
+定义成页【顶】以下代码
+	加载lib/gjke4。
+	“<meta charset=utf-8 /><script>
+	function z$(code) {prompt("zhscript-v",code);}
+	</script>”
+	调用‘迭代解’、下代码
+		形参起字、。
+		“<a href="javascript:z$(':::‘字’')">‘字’”循环【1】先“ _”了</a>循环【3】“ _”
+	上代码、‘参数栈’
+上代码。
+
+-回调、下代码
+	形参起事、。
+	分叉‘事’先
+		“内退”先
+			形参1起错、“错-1”、“错-2”、“名”、。
+			分叉‘名’先
+				、“log”先了。
+				赋予“步-错”【顶】、“步”【顶】以‘错-1’.‘错-2’、算术“‘步’+1”。
+			了。
+			“-签”、“‘名’ 错‘错-1’/‘错-2’”。
+		了
+	了
+上代码、
+-宽高、700、500、-移动、0、370、-标题、“哪个合适啊（‘@’）”、
+-新开、、、、“-簿名、生死”、
+-新页、网页、zhscript:、下代码
+	-代码、下代码
+		成页r4、for、
+		“for、”先（时间戳<2021-12-29）1660233600 了“、”先时间戳<2023-04-19了
+	上代码
+上代码、“-顶、-高、50”、
+-新页、网页、zhscript:、下代码
+	-代码、下代码
+		-签、呔。
+		成页pause、break、log。
+	上代码
+上代码、“-直”、
+
+（
+
+原先
+stable-x86_64-unknown-linux-gnu (default)
+nightly_1_45-x86_64-unknown-linux-gnu
+nightly-2020-04-30-x86_64-unknown-linux-gnu
+nightly-2020-06-04-x86_64-unknown-linux-gnu
+nightly-2022-03-18-x86_64-unknown-linux-gnu
+nightly-2022-04-10-x86_64-unknown-linux-gnu
+nightly-2022-08-05-x86_64-unknown-linux-gnu
+nightly-2022-09-19-x86_64-unknown-linux-gnu
+nightly-2022-10-06-x86_64-unknown-linux-gnu
+nightly-2022-11-03-x86_64-unknown-linux-gnu
+
+一干101，
+nightly-2022-11-05-x86_64-unknown-linux-gnu
+nightly-2022-11-06-x86_64-unknown-linux-gnu
+nightly-2022-11-07-x86_64-unknown-linux-gnu
+nightly-2022-11-08-x86_64-unknown-linux-gnu
+nightly-2022-11-09-x86_64-unknown-linux-gnu
+nightly-2022-11-10-x86_64-unknown-linux-gnu
+nightly-2022-11-11-x86_64-unknown-linux-gnu
+nightly-2022-11-12-x86_64-unknown-linux-gnu
+nightly-2022-11-13-x86_64-unknown-linux-gnu
+nightly-2022-11-14-x86_64-unknown-linux-gnu
+nightly-2022-11-15-x86_64-unknown-linux-gnu
+nightly-2022-11-16-x86_64-unknown-linux-gnu
+
+
+https://blog.rust-lang.org/
+https://github.com/rust-lang/rust/tags
+
+error: package `time-macros v0.2.9` cannot be built because it requires rustc 1.65.0 or newer, while the currently active rustc version is 1.62.0-nightly
+
+nightly-2022-04-10
+
+rustc 1.59.0-nightly (78fd0f633 2021-12-29) 始可编译，但“段错误”
+rustc 1.62.0-nightly (8f36334ca 2022-04-06) 同上
+rustc 1.62.0-nightly (e745b4ddb 2022-04-07) 同上
+rustc 1.62.0-nightly (f4a7ce997 2022-04-08) 同上
+rustc 1.62.0-nightly (8bf93e9b6 2022-04-09) 活全
+rustc 1.62.0-nightly (1f7fb6413 2022-04-10) 活全
+rustc 1.62.0-nightly (90ca44752 2022-04-11) 活全，快速会 free(): double free detected in tcache 2free(): double free detected in tcache 2
+rustc 1.62.0-nightly (52ca603da 2022-04-12) 同下
+rustc 1.62.0-nightly (e7575f967 2022-04-14) 同下
+rustc 1.62.0-nightly (7c4b47696 2022-04-30) 活过来了，但不能重建 
+rustc 1.62.0-nightly (e7575f967 2022-04-14)
+rustc 1.63.0-nightly (e09449220 2022-05-31) 进入坏道
+
+neightly 1.61.0

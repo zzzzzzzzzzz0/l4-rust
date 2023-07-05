@@ -1,0 +1,137 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'l'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=l",
+                    "--package=l"
+                ],
+                "filter": {
+                    "name": "l",
+                    "kind": "bin"
+                }
+            },
+            "args": [
+                "-zhscript-src-is-code",
+                //"-zhscript-d-arg",
+                //"-zhscript-d-lc",
+                "解释下代码显示‘参数’换行上代码、解释“、22、、。。。。1。1”"
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "help", "cwd": "${workspaceFolder}",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["-zhscript-help"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "exe-help", "cwd": "${workspaceFolder}",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["-zhscript-src-is-code", "执行ls、-h"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "src2/clpars-attr", "cwd": "${workspaceFolder}",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["src2/clpars-attr.zs"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "buding2", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz/github/zhscript2-rust-lib/buding2/z.zs", "t1"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "sh 2", "cwd": "/tmp",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["-zhscript-d-path",
+                "-zhscript-path", "/opt2/debug/zhscript2-rust",
+                "/zzzzzzzzzzz/sh/2.zs", "-f-m-k", "-991140"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "test buding-strmid", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/buding-strmid.zs"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "test clpars-h", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/clpars-h.zs", "-h"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "test clpars-h2", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/clpars-r-c.zs"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "test clpars-test", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/clpars-test.zs"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "test ut-a", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/ut-a.zs"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "test doscmd-exist", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/doscmd-exist.zs"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "test gjk0i2s-max", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/gjk0i2s-max.zs"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "test gjke-strstr", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/gjke-strstr.zs"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "test gjke-end", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/gjke-end.zs"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "test reg-break", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/reg-break.zs"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "test arg", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/zzzzzzzzzzz4/home/zzzzzzzzzzz/test/rust-zs2/arg.zs","1","22"]
+        },
+        {
+            "type": "lldb", "request": "launch", "name": "nbplayer3/c", "cwd": "/opt2/debug/zhscript2-rust",
+            "cargo": {"args": ["build"], "filter": {"name": "l", "kind": "bin"}},
+            "args": ["/opt2/opt/nbplayer3/c.zs", "pause"]
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'l'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=l",
+                    "--package=l"
+                ],
+                "filter": {
+                    "name": "l",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

@@ -45,11 +45,11 @@ $ cd l4-rust
 需要支持 asm 的 nightly 版才能编译
 
 ```bash
-$ rustup override set nightly
+$ cat rust-toolchain
 ```
 
 ```bash
-$ cargo run src2/dl.zs
+$ cargo run src2/dl.zhscript
 ```
 
 如果输出最终类似于
@@ -100,7 +100,7 @@ __（v0.7.30 突兀地就这么插了进来）你觉得下面代码运行后会�
 就是这样
 
 ```bash
-$ cargo run src2/clpars-ta.zs
+$ cargo run src2/clpars-ta.zhscript
 
 ========\
 \\\\\\\\\\
@@ -166,7 +166,7 @@ $$$$$$$$$
 ### 再
 
 ```bash
-$ cargo run src2/gjk.zs
+$ cargo run src2/gjk.zhscript
 ```
 
 如果输出最终类似于
@@ -187,7 +187,7 @@ $ cargo run src2/gjk.zs
 1234qWeR!@34 "超小写" -2
 ```
 
-那么吾甚欣慰否则头痛吧。不管怎样，无论如何，src2/gjk.zs 的源码都是
+那么吾甚欣慰否则头痛吧。不管怎样，无论如何，src2/gjk.zhscript 的源码都是
 
 ```
 加载lib/gjk4。

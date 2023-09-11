@@ -53,7 +53,7 @@
 	br|b|v|src1、下代码
 		运行“rust.zs ‘参数0’”
 	上代码、0、、
-	^(mv|ls|cp|rm)r(|y)$、下原样
+	^(mv|ls|cp|rm|md)r(|y)$、下原样
 		别名头以参数1。
 		赋予源/、标/、头2以./target/release/、
 			/zzzzzzzzzzz4/分叉‘参数2’先
@@ -64,6 +64,7 @@
 				ls“ -l”。
 				cp“ -p”。
 				rm“ -r”。
+				md“5sum”。
 			了。
 		分叉‘头’先
 			rm先

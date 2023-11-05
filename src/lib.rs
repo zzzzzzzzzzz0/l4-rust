@@ -228,9 +228,9 @@ extern fn for_kws__(env:&code_::Env_) -> Result2_ {
 	}
 	{
 		use zhscript2::{var_::*, def_, set_};
-		kws2.push(arg_::TOP_.to_string());
-		kws2.push(arg_::UP_.to_string());
-		kws2.push(arg_::IN_.to_string());
+		kws2.push(qv_::rem4_::TOP_.to_string());
+		kws2.push(qv_::rem4_::UP_.to_string());
+		kws2.push(qv_::rem4_::IN_.to_string());
 		kws2.push(set_::PRIV_.to_string());
 		kws2.push(set_::VAL_.to_string());
 		kws2.push(def_::NO_ARG_.to_string());

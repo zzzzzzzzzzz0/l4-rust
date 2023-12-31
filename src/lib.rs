@@ -167,6 +167,25 @@ pub extern "C" fn hello__(s:*const c_char, src_is_file:bool, argc: u32, argv: *c
 	for i in 0 .. argc as isize {
 		arg.push(s__(unsafe {*argv.offset(i)}));
 	}
+	if from == 1 {
+		let w = as_ref__!(W_);
+		let mut q = as_mut_ref__!(w.top_q_);
+		q.src_ = s.to_string();
+		if arg.len() > 2 {
+			let mut a = as_mut_ref__!(q.args_);
+			let mut b = 0;
+			let i3 = if arg[1] == w.shebang_flag_ {4} else {3};
+			for i in &arg {
+				b += 1;
+				if b < i3 {
+					continue;
+				} else if b > i3 {
+					w.dunhao__(&mut a);
+				}
+				a.add__(i);
+			}
+		}
+	}
 	let mut q = Qv_::new2(Some(as_ref__!(W_).clone().top_q_));
 	q.src_ = s.to_string();
 	let ret4 = t__(result_::List_::new());

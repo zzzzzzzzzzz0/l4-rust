@@ -330,12 +330,9 @@ extern fn thread4_stop__(env:&code_::Env_) -> Result2_ {
 
 #[no_mangle]
 extern fn regexpr4_for__(env:&code_::Env_) -> Result2_ {
-	zs2_l4_::regexpr4_::for__(&as_ref__!(as_ref__!(env.q).args_).to_vec__(), 0, env)
-}
-
-#[no_mangle]
-extern fn regexpr4_repla__(env:&code_::Env_) -> Result2_ {
-	zs2_l4_::regexpr4_::repla__(&as_ref__!(as_ref__!(env.q).args_).to_vec__(), env)
+	let mut args = as_ref__!(as_ref__!(env.q).args_).to_vec__();
+	let get = args.remove(0).parse::<u8>().unwrap();
+	zs2_l4_::regexpr4_::for__(&args, get, env)
 }
 
 #[no_mangle]

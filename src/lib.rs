@@ -159,7 +159,6 @@ pub extern "C" fn hello__(s:*const c_char, src_is_file:bool, argc: u32, argv: *c
 	{
 		let cfg = &mut as_mut_ref__!(W_).cfg_;
 		cfg.src_is_file_ = src_is_file;
-		cfg.jvhao_dunhao_ = true;
 	}
 	if from == 0 {
 		arg.push(s.to_string());

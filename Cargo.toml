@@ -1,6 +1,6 @@
 [package]
 name = "l"
-version = "4.9.20"
+version = "4.10.14"
 authors = ["zzzzzzzzzzz <zzzzzzzzzzzgg@gmail.com>"]
 edition = "2018"
 
@@ -9,8 +9,8 @@ name = "l4"
 crate-type = ["cdylib"]
 
 [dependencies]
-zhscript2 = {version = "4.9.20", path = "../zhscript2-rust", features = ["thread"]}
-zs2_l4_ = {version = "4.7.15", path = "../zs2-l4-rust"}
+zhscript2 = {version = "4.10.14", path = "../zhscript2-rust", features = ["thread"]}
+zs2_l4_ = {version = "4.8.27", path = "../zs2-l4-rust"}
 libloading = "0.5.0"
 lazy_static = "1.4.0"
 

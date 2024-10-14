@@ -254,6 +254,7 @@ extern fn for_kws__(env:&code_::Env_) -> Result2_ {
 		kws2.push(def_::NO_ARG_.to_string());
 		kws2.push(def_::BACK_ARG_.to_string());
 		kws2.push(zhscript2::u_::def_::argname_::SP_.to_string());
+		kws2.push(WITH_NAME_.to_string());
 		kws2.push(arg_::ARGS_.to_string());
 		kws2.push(arg_::ARG_.to_string());
 		kws2.push(arg_::ARGC_.to_string());
